@@ -87,7 +87,7 @@ class Halo5Animation: UIView {
         let height :CGFloat = 100
 
         label = UILabel(frame: CGRect(x: 64, y: self.frame.midY-50, width: width, height: height))
-        label?.text = "Success"
+        label?.text = "Halo 5"
         label?.font = UIFont(name: "Avenir Medium", size: 40.0)
         label?.textColor = UIColor.whiteColor()
         label?.textAlignment = NSTextAlignment.Center
