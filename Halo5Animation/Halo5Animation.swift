@@ -8,9 +8,9 @@
 
 import UIKit
 
-class SuccessAnimationView: UIView {
+class Halo5Animation: UIView {
 
-    let BACKGROUNDCOLOR = PLDARKBLUE
+    let BACKGROUNDCOLOR = UIColor(red:0.18, green:0.45, blue:0.64, alpha:1)
     let ANIMATIONTIME = 0.2
     let ALPHA :CGFloat = 0.9
     
@@ -96,7 +96,7 @@ class SuccessAnimationView: UIView {
     }
     
     func createLines () {
-        let LINECOLOR = PLLIGHTBLUE
+        let LINECOLOR = UIColor(red:0.77, green:0.91, blue:1, alpha:1)
         let STARTSIZE : CGFloat = 1.0
         let RIGHTX : CGFloat = box!.frame.size.width
         let BOTTOMY : CGFloat = box!.frame.size.height
@@ -151,7 +151,7 @@ class SuccessAnimationView: UIView {
     }
     
     func animateBars(){
-        let BARCOLOR = PLLIGHTBLUE
+        let BARCOLOR = UIColor(red:0.77, green:0.91, blue:1, alpha:1)
         let HEIGHT :CGFloat = 100
         let WIDTH :CGFloat = box!.frame.size.width
         let RIGHTX : CGFloat = box!.frame.size.width
@@ -198,6 +198,7 @@ class SuccessAnimationView: UIView {
             firstBar.frame = CGRect(x: RIGHTX, y: 0, width: 0, height: HEIGHT)
             self.label?.alpha = 0.0
         }
+  
         
         //Run Animations
         UIView.animateWithDuration(0.3, delay: 0.0, options: .CurveEaseInOut, animations: firstBarAnimation) { (Finished) -> Void in
@@ -207,11 +208,14 @@ class SuccessAnimationView: UIView {
 
                 UIView.animateWithDuration(0.3, delay: 0.0,  options: .CurveEaseInOut, animations: secondBarShrinkWithTopLine, completion: nil)
                 UIView.animateWithDuration(0.3, delay: 0.15, options: .CurveEaseInOut, animations: shrinkBottomAndRightLine, completion: nil)
-                UIView.animateWithDuration(0.4, delay: 0.3,  options: .CurveEaseInOut, animations: fadeBackgroundView, completion: nil)
-                UIView.animateWithDuration(0.3, delay: 0.1,  options: .CurveEaseInOut, animations: fadeLabelAndFirstBar, completion: nil)
+                UIView.animateWithDuration(0.3, delay: 0.1,  options: .CurveEaseInOut, animations: fadeLabelAndFirstBar, completion:nil)
+                UIView.animateWithDuration(0.7, delay: 0.5,  options: .CurveEaseInOut, animations: fadeBackgroundView, completion: { (Finished) -> Void in
+                    self.removeFromSuperview()
+                })
             }
         }
     }
+   
     
     
     func flashLabelAlpha(flashes : Int){

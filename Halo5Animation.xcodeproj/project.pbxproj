@@ -12,6 +12,7 @@
 		10B78AF41BDE918500BBD2C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B78AF21BDE918500BBD2C6 /* Main.storyboard */; };
 		10B78AF61BDE918500BBD2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B78AF51BDE918500BBD2C6 /* Assets.xcassets */; };
 		10B78AF91BDE918500BBD2C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B78AF71BDE918500BBD2C6 /* LaunchScreen.storyboard */; };
+		10B78B011BDE91A000BBD2C6 /* Halo5Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B78B001BDE91A000BBD2C6 /* Halo5Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		10B78AF51BDE918500BBD2C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B78AF81BDE918500BBD2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10B78AFA1BDE918500BBD2C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B78B001BDE91A000BBD2C6 /* Halo5Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Halo5Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				10B78AEE1BDE918500BBD2C6 /* AppDelegate.swift */,
 				10B78AF01BDE918500BBD2C6 /* ViewController.swift */,
+				10B78B001BDE91A000BBD2C6 /* Halo5Animation.swift */,
 				10B78AF21BDE918500BBD2C6 /* Main.storyboard */,
 				10B78AF51BDE918500BBD2C6 /* Assets.xcassets */,
 				10B78AF71BDE918500BBD2C6 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B78B011BDE91A000BBD2C6 /* Halo5Animation.swift in Sources */,
 				10B78AF11BDE918500BBD2C6 /* ViewController.swift in Sources */,
 				10B78AEF1BDE918500BBD2C6 /* AppDelegate.swift in Sources */,
 			);
