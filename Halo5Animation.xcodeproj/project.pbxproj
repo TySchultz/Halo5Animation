@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B78AEF1BDE918500BBD2C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B78AEE1BDE918500BBD2C6 /* AppDelegate.swift */; };
+		10B78AF11BDE918500BBD2C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B78AF01BDE918500BBD2C6 /* ViewController.swift */; };
+		10B78AF41BDE918500BBD2C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B78AF21BDE918500BBD2C6 /* Main.storyboard */; };
+		10B78AF61BDE918500BBD2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B78AF51BDE918500BBD2C6 /* Assets.xcassets */; };
+		10B78AF91BDE918500BBD2C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B78AF71BDE918500BBD2C6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10B78AEB1BDE918500BBD2C6 /* Halo5Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Halo5Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B78AEE1BDE918500BBD2C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10B78AF01BDE918500BBD2C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10B78AF31BDE918500BBD2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10B78AF51BDE918500BBD2C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10B78AF81BDE918500BBD2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10B78AFA1BDE918500BBD2C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10B78AE81BDE918500BBD2C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B78AE21BDE918400BBD2C6 = {
+			isa = PBXGroup;
+			children = (
+				10B78AED1BDE918500BBD2C6 /* Halo5Animation */,
+				10B78AEC1BDE918500BBD2C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10B78AEC1BDE918500BBD2C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10B78AEB1BDE918500BBD2C6 /* Halo5Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10B78AED1BDE918500BBD2C6 /* Halo5Animation */ = {
+			isa = PBXGroup;
+			children = (
+				10B78AEE1BDE918500BBD2C6 /* AppDelegate.swift */,
+				10B78AF01BDE918500BBD2C6 /* ViewController.swift */,
+				10B78AF21BDE918500BBD2C6 /* Main.storyboard */,
+				10B78AF51BDE918500BBD2C6 /* Assets.xcassets */,
+				10B78AF71BDE918500BBD2C6 /* LaunchScreen.storyboard */,
+				10B78AFA1BDE918500BBD2C6 /* Info.plist */,
+			);
+			path = Halo5Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10B78AEA1BDE918500BBD2C6 /* Halo5Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B78AFD1BDE918500BBD2C6 /* Build configuration list for PBXNativeTarget "Halo5Animation" */;
+			buildPhases = (
+				10B78AE71BDE918500BBD2C6 /* Sources */,
+				10B78AE81BDE918500BBD2C6 /* Frameworks */,
+				10B78AE91BDE918500BBD2C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Halo5Animation;
+			productName = Halo5Animation;
+			productReference = 10B78AEB1BDE918500BBD2C6 /* Halo5Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10B78AE31BDE918400BBD2C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ty Schultz";
+				TargetAttributes = {
+					10B78AEA1BDE918500BBD2C6 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 10B78AE61BDE918400BBD2C6 /* Build configuration list for PBXProject "Halo5Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10B78AE21BDE918400BBD2C6;
+			productRefGroup = 10B78AEC1BDE918500BBD2C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10B78AEA1BDE918500BBD2C6 /* Halo5Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B78AE91BDE918500BBD2C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B78AF91BDE918500BBD2C6 /* LaunchScreen.storyboard in Resources */,
+				10B78AF61BDE918500BBD2C6 /* Assets.xcassets in Resources */,
+				10B78AF41BDE918500BBD2C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B78AE71BDE918500BBD2C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B78AF11BDE918500BBD2C6 /* ViewController.swift in Sources */,
+				10B78AEF1BDE918500BBD2C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10B78AF21BDE918500BBD2C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B78AF31BDE918500BBD2C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10B78AF71BDE918500BBD2C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B78AF81BDE918500BBD2C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10B78AFB1BDE918500BBD2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10B78AFC1BDE918500BBD2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10B78AFE1BDE918500BBD2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Halo5Animation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyschultz.Halo5Animation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10B78AFF1BDE918500BBD2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Halo5Animation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyschultz.Halo5Animation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B78AE61BDE918400BBD2C6 /* Build configuration list for PBXProject "Halo5Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B78AFB1BDE918500BBD2C6 /* Debug */,
+				10B78AFC1BDE918500BBD2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10B78AFD1BDE918500BBD2C6 /* Build configuration list for PBXNativeTarget "Halo5Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B78AFE1BDE918500BBD2C6 /* Debug */,
+				10B78AFF1BDE918500BBD2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10B78AE31BDE918400BBD2C6 /* Project object */;
+}
